@@ -19,3 +19,15 @@ o Si hay localidades llenas y se quiere “asistir a la localidad”, se entra e
 espera” que se maneja con la estructura QUEUE.
 o Por lo tanto, el sistema permite RESERVAR ENTRADAS y APARTE, mostrar a los que
 están en listas de espera. No se precisa hacer nada con la lista de espera.
+Realice lo siguiente:
+a. Desarrolle el diagrama de clases para la solución de este problema.
+b. Haga el desarrollo de la solución utilizando el lenguaje Java, en el cual se incluya:
+◙ Un menú principal que permita:
+i. Realizar reservación (en cualquierlocalidad)
+1. Si no puede entrar en una localidad pues está llena, entrar en la
+cola de espera
+ii. Mostrar cantidades de reservas por ubicación
+iii. Mostrar colas de espera para cada ubicación
+iv. Mostrar la ganancia general
+v. Mostrar la ganancia por una localidad en específico
+vi. Mostrar el teatro de la mejor manera posible.
