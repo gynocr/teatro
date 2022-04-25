@@ -15,10 +15,14 @@ public class Teatro {
     public void llenarSala() {
         for (int i = 0; i < sala.length; i++) {
             for (int j = 0; j < sala[i].length; j++) {
-                if (i == 0 && j == 0) sala[i][j] = " ";
-                else if (i == 0) sala[i][j] = String.valueOf(j);
-                else if (j == 0) sala[i][j] = String.valueOf(i);
-                else sala[i][j] = ".";
+                if (i == 0 && j == 0)
+                    sala[i][j] = " ";
+                else if (i == 0)
+                    sala[i][j] = String.valueOf(j);
+                else if (j == 0)
+                    sala[i][j] = String.valueOf(i);
+                else
+                    sala[i][j] = "\033[32mX\033[0m";
             }
         }
     }
@@ -29,6 +33,7 @@ public class Teatro {
             for (int j = 0; j < sala[0].length; j++) {
                 System.out.print(asientos[j] + " ");
             }
+            System.out.print("\n");
         }
     }
 }
